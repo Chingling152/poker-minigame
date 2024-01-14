@@ -12,85 +12,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 275d60dd10ce8c043bde1cf7e5b0224c, type: 3}
   m_Name: Card Deck
   m_EditorClassIdentifier: 
-  nipe:
+  suit:
     displayName: Spades
-    value: 1
+    value: 4
   cards:
   - display: Ace
     value: 1
     sprite: {fileID: -2028932079, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Two
     value: 2
     sprite: {fileID: 517998539, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Three
     value: 3
     sprite: {fileID: -509965072, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Four
     value: 4
     sprite: {fileID: 224170802, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Five
     value: 5
     sprite: {fileID: -1625453316, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Six
     value: 6
     sprite: {fileID: 951738563, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Seven
     value: 7
     sprite: {fileID: -1569451250, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Eight
     value: 8
     sprite: {fileID: -1973737965, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
+    suit:
       displayName: Spades
-      value: 1
+      value: 4
   - display: Nine
     value: 9
     sprite: {fileID: 1806340282, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
-      displayName: Spades
-      value: 1
+    suit:
+      displayName: 
+      value: 0
   - display: Ten
     value: 10
     sprite: {fileID: -4650281, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
-      displayName: Spades
-      value: 1
+    suit:
+      displayName: 
+      value: 0
   - display: Jack
     value: 11
     sprite: {fileID: 1401289379, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
-      displayName: Spades
-      value: 1
+    suit:
+      displayName: 
+      value: 0
   - display: Queen
     value: 12
     sprite: {fileID: 99862575, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
-      displayName: Spades
-      value: 1
+    suit:
+      displayName: 
+      value: 0
   - display: King
     value: 13
     sprite: {fileID: 1712218194, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
-    nipe:
-      displayName: Spades
-      value: 1
+    suit:
+      displayName: 
+      value: 0

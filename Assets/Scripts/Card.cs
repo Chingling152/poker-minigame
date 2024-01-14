@@ -8,7 +8,7 @@ public class Card
     private string display; 
     public string DisplayName => this.display;
 
-    public string FullName => this.display + " of " + this.nipe.DisplayName;
+    public string FullName => this.display + " of " + this.suit.DisplayName;
 
     [SerializeField]
     private int value;
@@ -19,14 +19,14 @@ public class Card
     public Sprite Sprite => this.sprite;
 
     [SerializeField]
-    private Nipe nipe;
-    public Nipe Nipe => this.nipe;
+    private Suit suit;
+    public Suit Suit => this.suit;
 
-    public Card(string display, int value, Sprite sprite, Nipe nipe)
+    public Card(string display, int value, Sprite sprite, Suit suit)
     {
        this.display = display; 
        this.value = value;
        this.sprite = sprite;
-       this.nipe = nipe;
+       this.suit = suit;
     }
 }

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 [Serializable]
-public struct Nipe
+public struct Suit
 {
     [SerializeField]
     private string displayName;
@@ -14,18 +13,18 @@ public struct Nipe
     private int value;
     public readonly int Value => this.value;
 
-    public Nipe(string displayName, int value)
+    public Suit(string displayName, int value)
     {
         this.displayName = displayName;
         this.value = value;
     }
 }
 
-public class NipeGroup
+public class SuitGroup
 { 
     [SerializeField]
-    private Nipe nipe;
-    public Nipe Nipe => this.nipe;
+    private Suit suit;
+    public Suit Suit => this.suit;
 
     [SerializeField]
     private List<Card> cards;
