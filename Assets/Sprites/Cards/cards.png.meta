@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cards_
+      name: cards_4_1
       rect:
         serializedVersion: 2
         x: 17
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_1
+      name: cards_4_2
       rect:
         serializedVersion: 2
         x: 358
@@ -171,7 +171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_,
+      name: cards_4_3
       rect:
         serializedVersion: 2
         x: 698
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_4
+      name: cards_4_4
       rect:
         serializedVersion: 2
         x: 1038
@@ -213,11 +213,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_5
+      name: cards_4_5
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 1524
+        x: 1374
+        y: 1527
         width: 323
         height: 484
       alignment: 0
@@ -234,7 +234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_6
+      name: cards_4_6
       rect:
         serializedVersion: 2
         x: 1719
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_7
+      name: cards_4_7
       rect:
         serializedVersion: 2
         x: 2057
@@ -276,11 +276,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_8
+      name: cards_4_8
       rect:
         serializedVersion: 2
-        x: 2398
-        y: 1524
+        x: 2401
+        y: 1521
         width: 323
         height: 484
       alignment: 0
@@ -297,7 +297,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_9
+      name: cards_4_9
       rect:
         serializedVersion: 2
         x: 2738
@@ -318,7 +318,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_10
+      name: cards_4_10
       rect:
         serializedVersion: 2
         x: 3079
@@ -339,7 +339,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_11
+      name: cards_4_11
       rect:
         serializedVersion: 2
         x: 3419
@@ -360,7 +360,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_12
+      name: cards_4_12
       rect:
         serializedVersion: 2
         x: 3759
@@ -381,7 +381,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cards_13
+      name: cards_4_13
       rect:
         serializedVersion: 2
         x: 4097
@@ -412,19 +412,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cards_: -2028932079
-      cards_,: -509965072
-      cards_1: 517998539
-      cards_10: -4650281
-      cards_11: 1401289379
-      cards_12: 99862575
-      cards_13: 1712218194
-      cards_4: 224170802
-      cards_5: -1625453316
-      cards_6: 951738563
-      cards_7: -1569451250
-      cards_8: -1973737965
-      cards_9: 1806340282
+      cards_4_1: -2028932079
+      cards_4_10: -4650281
+      cards_4_11: 1401289379
+      cards_4_12: 99862575
+      cards_4_13: 1712218194
+      cards_4_2: 517998539
+      cards_4_3: -509965072
+      cards_4_4: 224170802
+      cards_4_5: -1625453316
+      cards_4_6: 951738563
+      cards_4_7: -1569451250
+      cards_4_8: -1973737965
+      cards_4_9: 1806340282
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
