@@ -68,29 +68,29 @@ MonoBehaviour:
     value: 9
     sprite: {fileID: 1806340282, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
     suit:
-      displayName: 
-      value: 0
+      displayName: Spades
+      value: 4
   - display: Ten
     value: 10
     sprite: {fileID: -4650281, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
     suit:
-      displayName: 
-      value: 0
+      displayName: Spades
+      value: 4
   - display: Jack
     value: 11
     sprite: {fileID: 1401289379, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
     suit:
-      displayName: 
-      value: 0
+      displayName: Spades
+      value: 4
   - display: Queen
     value: 12
     sprite: {fileID: 99862575, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
     suit:
-      displayName: 
-      value: 0
+      displayName: Spades
+      value: 4
   - display: King
     value: 13
     sprite: {fileID: 1712218194, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
     suit:
-      displayName: 
-      value: 0
+      displayName: Spades
+      value: 4
