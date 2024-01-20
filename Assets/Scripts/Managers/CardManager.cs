@@ -14,6 +14,14 @@ public class CardManager : MonoBehaviour
 
     private void Start()
     {
-
+        foreach (var suit in this.deck.Suits)
+        {
+            foreach(var card in suit.Cards)
+            {
+                var cardController = Instantiate(cardPrefab);
+                cardController.Card = card;
+                cards.Add(cardController);
+            }
+        }
     }
 }

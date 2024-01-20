@@ -16,7 +16,13 @@ public class CardController : MonoBehaviour
             if (card == null)
             {
                 this.card = value;
+                this.GetComponent<SpriteRenderer>().sprite = value.Sprite;
             }
         }
+    }
+
+    public void Awake()
+    {
+        this.card = null;
     }
 }
