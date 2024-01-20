@@ -18,79 +18,79 @@ MonoBehaviour:
   cards:
   - display: Ace
     value: 1
-    sprite: {fileID: -2028932079, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: -371537832, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Two
     value: 2
-    sprite: {fileID: 517998539, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 165299214, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Three
     value: 3
-    sprite: {fileID: -509965072, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: -307290663, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Four
     value: 4
-    sprite: {fileID: 224170802, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 80214357, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Five
     value: 5
-    sprite: {fileID: -1625453316, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: -1132974715, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Six
     value: 6
-    sprite: {fileID: 951738563, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 578661862, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Seven
     value: 7
-    sprite: {fileID: -1569451250, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 1373347445, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Eight
     value: 8
-    sprite: {fileID: -1973737965, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 2061848221, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Nine
     value: 9
-    sprite: {fileID: 1806340282, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: -106041981, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Ten
     value: 10
-    sprite: {fileID: -4650281, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: -1469291310, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Jack
     value: 11
-    sprite: {fileID: 1401289379, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 1714980399, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: Queen
     value: 12
-    sprite: {fileID: 99862575, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 1046724778, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
   - display: King
     value: 13
-    sprite: {fileID: 1712218194, guid: 84ef2ff7c876912428e59ea296993836, type: 3}
+    sprite: {fileID: 2050913340, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
     suit:
       displayName: Spades
       value: 4
