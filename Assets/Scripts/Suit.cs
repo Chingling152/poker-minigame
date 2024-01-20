@@ -19,14 +19,3 @@ public struct Suit
         this.value = value;
     }
 }
-
-public class SuitGroup
-{ 
-    [SerializeField]
-    private Suit suit;
-    public Suit Suit => this.suit;
-
-    [SerializeField]
-    private List<Card> cards;
-    public List<Card> Cards => this.cards;
-}
