@@ -1,27 +1,22 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CardManager : MonoBehaviour
 {
     [SerializeField]
     private Deck deck;
-
-    [SerializeField]
-    private List<CardController> cards;
+    public Deck Deck => this.deck;
 
     [SerializeField]
     private CardController cardPrefab;
 
-    private void Start()
+    public CardController CreateCard(Card card, Transform transform)
     {
-        foreach (var suit in this.deck.Suits)
-        {
-            foreach(var card in suit.Cards)
-            {
-                var cardController = Instantiate(cardPrefab);
-                cardController.Card = card;
-                cards.Add(cardController);
-            }
-        }
+        var cardController = Instantiate(cardPrefab);
+
+        cardController.name = $"Card ({card.FullName})";
+        cardController.Card = card;
+        cardController.transform.SetParent(transform);
+
+        return cardController;
     }
 }

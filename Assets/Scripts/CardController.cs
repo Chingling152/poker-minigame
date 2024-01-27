@@ -21,6 +21,14 @@ public class CardController : MonoBehaviour
         }
     }
 
+    public Vector3 Size
+    {
+        get
+        {
+            return this.GetComponent<SpriteRenderer>().bounds.size;
+        }
+    }
+
     public void Awake()
     {
         this.card = null;
