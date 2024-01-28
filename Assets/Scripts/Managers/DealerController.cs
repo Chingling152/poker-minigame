@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DealerController : MonoBehaviour
@@ -6,21 +7,13 @@ public class DealerController : MonoBehaviour
     [SerializeField]
     private CardManager cardManager;
 
-    private Deck deck;
-
     [SerializeField]
     private List<CardController> cards;
 
     [SerializeField]
     private GameObject table;
-    public GameObject Table => this.table;
 
-    public void Start()
-    {
-        this.deck = this.cardManager.Deck;
-        this.Distribute(deck);
-    }
-
+    [Obsolete("Useless method")]
     public void Distribute(Deck deck)
     {
         var y = 0;
@@ -38,6 +31,29 @@ public class DealerController : MonoBehaviour
                 x++;
             }
             y++;
+        }
+    }
+
+    public void Distribute(DeckController deck)
+    {
+        var x = 0;
+        var y = 0;
+        while (!deck.IsEmpty)
+        {
+            var card = deck.GetCard();
+
+            var cardController = this.cardManager.CreateCard(card, table.transform);
+            var size = cardController.Size;
+
+            cardController.transform.position = table.transform.position + new Vector3((size.x * x), (size.y * y), 0);
+            cards.Add(cardController);
+
+            x++;
+            if (x > 12)//TODO: remove this code
+            {
+                y++;
+                x = 0;
+            }
         }
     }
 }
