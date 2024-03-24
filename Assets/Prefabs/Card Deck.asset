@@ -97,3 +97,252 @@ MonoBehaviour:
       suit:
         displayName: Spades
         value: 1
+  - name: Clubs
+    suit:
+      displayName: Clubs
+      value: 2
+    cards:
+    - display: Ace
+      value: 1
+      sprite: {fileID: 1929408185, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Two
+      value: 2
+      sprite: {fileID: 1995368640, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Three
+      value: 3
+      sprite: {fileID: -384838527, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Four
+      value: 4
+      sprite: {fileID: -1560128689, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Five
+      value: 5
+      sprite: {fileID: -2068848496, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Six
+      value: 6
+      sprite: {fileID: 1464722254, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Seven
+      value: 7
+      sprite: {fileID: -1954068805, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Eight
+      value: 8
+      sprite: {fileID: 1412762824, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Nine
+      value: 9
+      sprite: {fileID: 573390322, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Ten
+      value: 10
+      sprite: {fileID: 2056558094, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Jack
+      value: 11
+      sprite: {fileID: 465794668, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: Queen
+      value: 12
+      sprite: {fileID: -1884407904, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+    - display: King
+      value: 13
+      sprite: {fileID: 930735333, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Clubs
+        value: 2
+  - name: Hearts
+    suit:
+      displayName: Hearts
+      value: 3
+    cards:
+    - display: Ace
+      value: 1
+      sprite: {fileID: -977878620, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Two
+      value: 2
+      sprite: {fileID: -388767651, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Three
+      value: 3
+      sprite: {fileID: -1758063716, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Four
+      value: 4
+      sprite: {fileID: -998385166, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Five
+      value: 5
+      sprite: {fileID: -231542100, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Six
+      value: 6
+      sprite: {fileID: 1645043341, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Seven
+      value: 7
+      sprite: {fileID: -129145449, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Eight
+      value: 8
+      sprite: {fileID: 378571929, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Nine
+      value: 9
+      sprite: {fileID: 658625332, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Ten
+      value: 10
+      sprite: {fileID: 1940017748, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Jack
+      value: 11
+      sprite: {fileID: 814184232, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: Queen
+      value: 12
+      sprite: {fileID: 2074317972, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+    - display: King
+      value: 13
+      sprite: {fileID: -1005430172, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Hearts
+        value: 3
+  - name: Diamonds
+    suit:
+      displayName: Diamonds
+      value: 4
+    cards:
+    - display: Ace
+      value: 1
+      sprite: {fileID: 695053042, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Two
+      value: 2
+      sprite: {fileID: 197534066, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Three
+      value: 3
+      sprite: {fileID: -1627296242, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Four
+      value: 4
+      sprite: {fileID: -1692348089, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Five
+      value: 5
+      sprite: {fileID: 631257139, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Six
+      value: 6
+      sprite: {fileID: -431051843, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Seven
+      value: 7
+      sprite: {fileID: 1082967121, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Eight
+      value: 8
+      sprite: {fileID: -84806675, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Nine
+      value: 9
+      sprite: {fileID: 1058267474, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Ten
+      value: 10
+      sprite: {fileID: -2012731150, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Jack
+      value: 11
+      sprite: {fileID: -269436339, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: Queen
+      value: 12
+      sprite: {fileID: -1721876416, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
+    - display: King
+      value: 13
+      sprite: {fileID: -2074272454, guid: ce356347ae7c61a42aa69022eda8a265, type: 3}
+      suit:
+        displayName: Diamonds
+        value: 4
