@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class CardController : MonoBehaviour
 {
@@ -21,16 +22,21 @@ public class CardController : MonoBehaviour
         }
     }
 
-    public Vector3 Size
-    {
-        get
-        {
-            return this.GetComponent<SpriteRenderer>().bounds.size;
-        }
-    }
-
     public void Awake()
     {
         this.card = null;
+    }
+
+    public IEnumerator MoveTo(Vector3 startPosition, Vector3 target)
+    {
+        float elapsed = 0f;
+        while (elapsed < 1f)
+        {
+            transform.position = Vector3.Lerp(startPosition, target, elapsed * 5);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.position = target;
     }
 }

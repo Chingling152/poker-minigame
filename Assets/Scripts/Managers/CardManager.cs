@@ -3,10 +3,6 @@ using UnityEngine;
 public class CardManager : MonoBehaviour
 {
     [SerializeField]
-    private Deck deck;
-    public Deck Deck => this.deck;
-
-    [SerializeField]
     private CardController cardPrefab;
 
     public CardController CreateCard(Card card, Transform transform)

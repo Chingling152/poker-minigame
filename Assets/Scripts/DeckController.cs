@@ -10,12 +10,25 @@ public class DeckController : MonoBehaviour
     [SerializeField]
     private Queue<Card> cards;
 
+    [SerializeField]
+    private CardManager cardManager;
+
+    [System.Obsolete("Find for a better place to put it")]
+    public Vector3 SpriteSize
+    {
+        get;
+        private set;
+    }
+
     public bool IsEmpty => this.cards.Count == 0;
 
     public void Create(Deck deck)
     {
         this.deck = deck;
         this.GetComponent<SpriteRenderer>().sprite = deck.BackSprite;
+        this.cards = new Queue<Card>(deck.Cards);
+
+        this.SpriteSize = this.GetComponent<SpriteRenderer>().bounds.size;
     }
 
     public void Shuffle()
@@ -23,15 +36,18 @@ public class DeckController : MonoBehaviour
         this.cards = new Queue<Card>(this.deck.Cards.OrderBy(x => Random.Range(0.0f ,10.0f)));
     }
 
-    public Card GetCard()
+    public CardController GetCard()
     {
-        var card = this.cards.Dequeue();
+        if (!this.cards.TryDequeue(out var card))
+        {
+            return default;
+        }
 
-        if(this.IsEmpty)
+        if (this.IsEmpty)
         {
             this.GetComponent<SpriteRenderer>().sprite = null;
         }
 
-        return card;
+        return this.cardManager.CreateCard(card, transform);
     }
 }
