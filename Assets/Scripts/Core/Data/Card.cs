@@ -4,7 +4,7 @@ using UnityEngine;
 namespace CardMiniGame.Core.Data
 {
     [Serializable]
-    public class Card
+    public class Card : IEquatable<Card>
     {
         [SerializeField]
         private string display;
@@ -30,6 +30,14 @@ namespace CardMiniGame.Core.Data
             this.value = value;
             this.sprite = sprite;
             this.suit = suit;
+        }
+
+        public bool Equals(Card other)
+        {
+            if(other == null) 
+                return false;
+
+            return this.suit.Value == other.suit.Value && this.value == other.value;
         }
     }
 }
