@@ -1,13 +1,21 @@
 using CardMiniGame.Core.Data;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace CardMiniGame.Core.Players
 {
-    public class PlayerDeck
+    public class PlayerDeck : ICollection<Card>
     {
         private readonly Card[] cards;
 
+        public Card[] Cards => this.cards.ToArray();
+
         public bool HasSpace => this.cards.Any(x => x == null);
+
+        public int Count => this.cards.Length;
+
+        public bool IsReadOnly => throw new System.NotImplementedException();
 
         public PlayerDeck()
         {
@@ -46,18 +54,61 @@ namespace CardMiniGame.Core.Players
             }
         }
 
-        public void Remove(Card card)
+        public bool Remove(Card card)
         {
             for (var i = 0; i < this.cards.Length; i++)
             {
                 if (card.Equals(this.cards[i]))
                 {
                     this.cards[i] = null;
-                    return;
+                    return true;
                 } 
             }
 
             throw new System.Exception("Card not found");
+            //TODO: fix return/exception
+            return false;
+        }
+
+        public void Clear()
+        {
+            for (int i = 0; i < this.cards.Length; i++)
+            {
+                this.cards[i] = null;
+            }
+        }
+
+        public bool Contains(Card item)
+        {
+            if(item == null)
+            {
+                throw new System.ArgumentNullException("item cannot be null");
+            }
+
+            for (var i = 0; i < this.cards.Length; i++)
+            {
+                if (item.Equals(this.cards[i]))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public void CopyTo(Card[] array, int arrayIndex)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerator<Card> GetEnumerator()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
